@@ -17,7 +17,7 @@ en: &en
   published: 'Published'
   redirecting: 'Redirecting...'
   search: 'Search'
-  search_not_found: 'Oh shucks<br/><small>Nothing found :(</small>'
+  search_not_found: 'These are not the droids you`re looking for<br/><small>Move along</small>'
   search_placeholder: 'Search...'
   search_results: 'Search results'
   share_post: 'Share Post:'

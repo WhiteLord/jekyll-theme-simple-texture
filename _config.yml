@@ -53,7 +53,7 @@ home:
 blog:
   cc_license: # A link to CC License of your choice, e.g. http://creativecommons.org/licenses/by-sa/4.0/.
   cc_license_image: # An image of your CC License, e.g. /assets/images/theme/cc-by-sa.png
-  footer_content: A simple blog for professionals, enthusiasts and hobbyists. Share with the widget on the left-hand side! 
+  footer_content: A simple blog for professionals, enthusiasts and hobbyists. Share it with the widget on the left-hand side! 
 
 disqus:
   shortname:

@@ -24,8 +24,8 @@ sass:
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: Spasov Online
-description: "The blog for pentesting, programming and technology"
-keywords: 'blog, pentesting, programming, technology'
+description: "The blog for cyber security, programming and technology"
+keywords: 'blog, cyber security, programming, technology'
 author:
   name:
   job_title:

@@ -1,2 +1,1 @@
-# jekyll-theme-simple-texture
-A gem-based responsive simple texture styled Jekyll theme.
+ Jekyll-based personal website, based on software development, hackZ, lolZ and memeZ. Check it out: http://spasov.online

@@ -14,13 +14,14 @@ So, what do you do? You filter out the results, so that the object with the lowe
 
 Now, how do we make this work in java?
 
-First of all, we need to learn what the [***Collections framework***](https://docs.oracle.com/javase/tutorial/collections/ "Oracle's website")  is.
+First of all, we need to learn what the [***Collections Framework***](https://docs.oracle.com/javase/tutorial/collections/ "Oracle's website")  is.
 
 In short, **collections**, is the abstract human representation of the way items are sorted, based on their properties.
-The **Collection interface** in the Java programming language represents a group of objects, which can be later compared, based on their common properties.
-The **Collections class** in the Java programming language represents a class, which contains only static methods, which could be used in order to fullfil a sorting method later on.
+The **Collection Interface** in the Java programming language represents a group of objects, which can be later compared, based on their common properties.
+The **Collections Class** in the Java programming language represents a class, which contains only static methods, which could be used in order to fullfil a sorting method later on.
 
-Notice something? **collections** -> **Collection Interface** -> **Collections Class**
+How does the **Colections class** do its trick? 
+Quite simply, `java.util.Collecions` supply static methods and *polymorphic* algorithms. For example, the `Collecitons.sort()` method is fed a collection, which has implemented the **List Interface**. From this, we can deduce that `Collections.sort` works for **ArrayList, LinkedList, Vector**.
 
 So how do we implement a sorting functionality in our code?
 
@@ -125,9 +126,9 @@ public class Main {
 {% endhighlight %}
 
 
-Another way of comparing objects, is to use the **Comparable** interface in the class, which instantiations we would like to compare.
+Another way of comparing objects, is to use the **Comparable Interface** in the class, which instantiations we would like to compare.
 This sounds a bit off, but you'll get the hang of it, as you go through the next lines of code.
-Now, the Student class will implement the **Comparable** interface, and the Student class will have the functionality to do the sorting.
+Now, the Student class will implement the **Comparable Interface**, and the Student class will have the functionality to do the sorting.
 
 {% highlight javascript linenos=table %}
 public class Student implements Comparable<Student>{
@@ -162,8 +163,8 @@ public class Student implements Comparable<Student>{
 }
 {% endhighlight %}
 
-In the example we use the **String.compareTo** method, which returns a string, starting with the lowest [ASCII](http://www.asciitable.com/ "Ascii table online") value (for example the Dec value of the capital letter *A* is 65, the lowercase *a*, however is 97).
-We don't have to instantiate the **CompareClass** class this time, as the functionality is directly served through the student class. 
+In the example we use the `String.compareTo` method, which returns a string, starting with the lowest [ASCII](http://www.asciitable.com/ "Ascii table online") value (for example the Dec value of the capital letter *A* is 65, the lowercase *a*, however is 97).
+We don't have to instantiate the `CompareClass` class this time, as the functionality is directly served through the student class. 
 In this case, the Main class will look like this:
 
 {% highlight javascript linenos=table %}
@@ -186,4 +187,4 @@ public class Main {
 }
 {% endhighlight %}
 
-This way the name and age fields of the object are printed, in ascending order. Reversing the order will be completed using **Collections.reverse()** or **Collections.reverseOrder()**.
+This way the name and age fields of the object are printed, in ascending order. Reversing the order will be completed using `Collections.reverse()` or `Collections.reverseOrder()`.

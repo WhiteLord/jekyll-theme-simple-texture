@@ -1,1 +1,1 @@
- Jekyll-based personal website, based on software development, hackZ, lolZ and everything that is linked with the digital world. Check it out: http://spasov.online
+ Jekyll-based personal website, based on software developmentand everything that is related with the digital world. Check it out: http://spasov.online
